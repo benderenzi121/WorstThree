@@ -5,7 +5,12 @@ module.exports = {
 		"./components/**/*.{js,ts,jsx,tsx}",
 	],
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				"wotlk-blue": "#2f3f54",
+				"wotlk-light-blue": "#e7eefd",
+			},
+		},
 	},
 	plugins: [],
 }
