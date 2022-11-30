@@ -28,7 +28,7 @@ export default function Navbar(): JSX.Element {
 									)}
 								</Disclosure.Button>
 							</div>
-							<div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+							<div className="flex flex-1 justify-center items-stretch sm:justify-start">
 								<div className="hidden sm:ml-6 sm:block">
 									<div className="flex space-x-4">
 										{navigation.map((item) => (
@@ -39,7 +39,7 @@ export default function Navbar(): JSX.Element {
 													item.current
 														? "bg-wotlk-light-blue/70 text-black"
 														: "hover:bg-wotlk-light-blue/70 hover:text-black",
-													"px-3 py-2 rounded-md text-sm font-medium"
+													"rounded-md text-sm font-medium"
 												)}
 												aria-current={item.current ? "page" : undefined}
 											>
