@@ -2,8 +2,8 @@ import { Disclosure } from "@headlessui/react"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
 
 const navigation = [
-	{ name: "WoW - WotLK", href: "#", current: true },
-	{ name: "LoL", href: "#", current: false },
+	{ name: "WoW - WotLK", href: "/", current: true },
+	{ name: "LoL", href: "/lol", current: false },
 ]
 
 function classNames(...classes: []): string {

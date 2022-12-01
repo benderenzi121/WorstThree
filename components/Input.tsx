@@ -7,8 +7,8 @@ export default function Input() {
     console.log(charecterName)
   return (
     <div className='w-3/4 flex justify-center max-md:w-full text-center'>  
-        <div className='w-3/4 max-sm:w-full max-sm:m-3'>
-                <label htmlFor="price" className="block text-sm font-medium text-wotlk-light-blue">
+        <div className='w-3/4 max-sm:w-5/6'>
+        <label htmlFor="price" className="block text-sm font-medium text-wotlk-light-blue ">
            Search by charecter name / server / region
         </label>
         <div className="relative mt-1 rounded-md shadow-sm">
@@ -18,7 +18,7 @@ export default function Input() {
             type="text"
             name="price"
             id="price"
-            className="block w-full rounded-md border-gray-300 pl-7 pr-12 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="block w-full h-10 rounded-md border-gray-300 pl-7 pr-12 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
             placeholder="SnackyPacky"
             onChange={(e) => setCharecterName(e.target.value) }
             />
